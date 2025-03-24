@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <?php
+    ?>
     <main>
         <form action="" method="post">
             <h1>Caixa Eletrônico</h1>
@@ -16,7 +18,7 @@
         </form>
     </main>
     <section>
-        
+
     </section>
     
 </body>
