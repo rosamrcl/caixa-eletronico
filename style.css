@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(15, 184, 91);
+}
+label{
+    background: white;
+    color: rgba(52, 192, 17, 0.877);
+    border-radius: 5px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
