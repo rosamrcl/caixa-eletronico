@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin: 55px;
+    padding: 50px;   
+    
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;    
+}
+.enviar{
+    background: black;
+    color: aliceblue;
+}
+label{
+    background: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;    
+}
+.box{
+    background: url(../../public/img/caixa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:335px;
+    height: 745px;
+}

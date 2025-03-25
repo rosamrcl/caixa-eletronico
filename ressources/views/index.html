@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco </title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Banco</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    <form action="login.php" method="post">
-        <label for="login">Login</label>
-        <input type="text" name="login" id="login">
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha">
-        <input type="submit" value="Entrar">
-    </form>
+    <div class="box">
+        <form action="../../public/login.php" method="post">
+            <label for="login">Login</label><br>
+            <input type="text" name="login" id="login"><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+            <input class="enviar" type="submit" value="Entrar">
+        </form>
+    </div>
     
 </body>
 </html>

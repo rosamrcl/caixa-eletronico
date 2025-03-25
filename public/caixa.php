@@ -20,6 +20,7 @@
             <p>Notas disponíveis: R$100, R$50, R$20, R$10, R$5 e R$2 </p>
         </form>
     </main>
+    
     <?php
         $resto=$saque;       
         $tot100=floor($resto/100);
