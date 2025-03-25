@@ -34,6 +34,8 @@
         $resto%=5;
         $tot2=floor($resto/2);
         $resto%=2;
+        // floor arredonda para baixo
+        //% usa o resto da divisão, o que vai além numa divisão inteira 
     ?>
     <section>
         <h1>Saque de <?=number_format($saque, 2, ",", ".")?> reais realizado</h1> 
